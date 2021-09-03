@@ -1,0 +1,28 @@
+ 1.What is a compiler?
+
+Ans:Compiler is a computer software that translates (compiles) source code written in high level language int a set of machine language       instructions that can be understood by a digital computer's	  CPU.The name "compiler" is primarily used for programs that translate       source code from a high-level programming language to a lower level language to create an executable program.
+
+	 A Java compiler is a program that takes the text file work of a developer and compiles it into a 
+	platform-independent Java file. Java compilers include the Java Programming Language Compiler (javac), the GNU Compiler for Java         (GCJ), the Eclipse Compiler for Java (ECJ) and  Jikes.	
+
+2.What is a interpreter?
+
+Ans:An interpreter is a computer program that directly executes instructions written in a programming	 or scripting language, without        requiring them previously to have been compiled into a machine language program.
+
+    Java interpreter is a computer program (system software) that implements the JVM. It is responsible for reading and executing the          program. It is designed in such a way that it can read the source program and translate the source code instruction by instruction.
+
+3.Difference between compiler and interpreter
+Ans:
+	Compiler                                                   Interpreter
+
+  > A compiler translates the compiler source              > An interpreter translates the source program 
+     program in a single line.	                             line by line.
+
+  > It is faster.     					   > It is slower.
+
+  > It consumes less time.				   > It consumes more time.
+	
+  > It is more efficient.				   > It is less efficient.
+
+  > Compilers are larger in size.			   > Interpreters are smaller than compilers.	 
+	

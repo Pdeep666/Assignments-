@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class Student
+{
+	int roll;
+	String name;
+	float marks;
+	Student(int roll,String name,float marks)
+	{
+		this.roll=roll;
+		this.name=name;
+		this.marks=marks;
+	}
+}
+public class assignment1{
+	public static void main(String[] args) {
+		int i;
+		Student stud[]=new Student[10];
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the number of students");
+		int n=sc.nextInt();
+		System.out.println("Enter the details of "+n+" students");
+		for (i=1;i<=n ;i++ ) 
+		{
+			System.out.println("Student:"+i);
+			System.out.println("Enter the rollno:");
+			int roll=sc.nextInt();
+			System.out.println("Enter the name:");
+			String name=sc.next();
+			System.out.println("Enter the marks:");
+			float marks=sc.nextInt();
+			stud[i]= new Student(roll,name,marks);
+			
+		}
+		System.out.println("The details of student are:");
+		for(i=1;i<=n;i++)
+		{
+			System.out.println("Student:"+i);
+			System.out.println("rollno:"+stud[i].roll);
+			System.out.println("Name:"+stud[i].name);
+			System.out.println("Marks:"+stud[i].marks);
+		}
+	}
+}
